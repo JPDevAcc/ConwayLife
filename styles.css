@@ -1,0 +1,24 @@
+body {
+	background-color: darkblue ;
+}
+
+.container {
+	margin: auto ;
+	width: 576px ;
+}
+
+.cells {
+	display: flex ;
+	flex-wrap: wrap ;
+}
+
+.cell {
+	background-color: black ;
+	width: 12px ;
+	height: 12px ;
+	outline: 1px solid blue ;
+}
+
+.live {
+	background-color: green ;
+}
